@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = {"qr-code-generator-sage-sigma.vercel.app"})
 @RequestMapping("/api/qr")
 public class QRController {
 
